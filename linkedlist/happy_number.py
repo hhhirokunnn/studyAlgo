@@ -32,7 +32,7 @@ class Step1:
 # 解答書いた16min
 
 # この問題でFloyds Cycle-Finding は思いつけなかった。
-
+# 解答みて書き写しました
 class Step1:
     def isHappy(self, n: int) -> bool:
         def get_next(number):
