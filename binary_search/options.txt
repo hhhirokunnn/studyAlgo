@@ -1,6 +1,2 @@
-https://leetcode.com/problems/koko-eating-bananas/
-https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
-https://leetcode.com/problems/magnetic-force-between-two-balls/
 https://leetcode.com/problems/split-array-largest-sum/
 https://leetcode.com/problems/divide-chocolate/
-https://leetcode.com/problems/cutting-ribbons/
