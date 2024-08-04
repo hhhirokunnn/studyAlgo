@@ -16,19 +16,16 @@ class Solution:
                     nextRoot = 1
                 return depthSearch(n - 1, k, nextRoot)
         return depthSearch(n, k, 0)
-
+# O(N), O(N)
 class Solution:
     def kthGrammar(self, n: int, k: int) -> int:
         symbol = 0
-        
         while n > 1:
             length = 2 ** (n - 1)
             mid = length // 2
-            
             if k > mid:
                 symbol = 1 - symbol
                 k -= mid
-            
             n -= 1
-        
         return symbol
+# O(N), O(1)
