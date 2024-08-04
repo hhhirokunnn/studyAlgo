@@ -12,6 +12,7 @@ class Solution:
             result = self.splitBST(root.right, target)
             root.right = result[0]
             return [root, result[1]]
+# O(h), O(h) h: height of tree
 
 class Solution:
     def splitBST(self, root: Optional[TreeNode], target: int) -> List[Optional[TreeNode]]:
@@ -36,3 +37,5 @@ class Solution:
                 node.right = ans[0]
                 ans[0] = node
         return ans
+
+# O(h), O(h) h: height of tree
